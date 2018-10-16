@@ -1,0 +1,21 @@
+Distributed	Systems	and	Cloud	Computing	
+Assignment	Two—RESTful	DHT	
+For this assignment, you will complete a simple peer-to-peer structured overlay network, a
+distributed hash table (DHT), to be partly deployed into the cloud. You are provided with the
+partial implementation of a DHT using REST for communication among nodes. Your assignment
+is to complete this implementation using JAX/RS, specifically using the Jersey implementation of
+JAX/RS. The nodes of your network will run as standalone Java programs, using an embedded
+Grizzly Web server.
+Each node has its own “state server.” This state server could be implemented as a singleton RMI
+object, located in a separate process that functions as a lightweight “database server.” For
+simplicity, the server in this case is an in-process singleton object. When an application starts, it
+creates a state server object and registers it internally. When a Web service request arrives, the
+handler for that request looks up the state server in the main program state. Concurrent requests
+synchronize their accesses to the node’s state using locks in the state server.
+
+The code is structured as a Maven project called “ dht-standalone ,” with several packages:
+1. edu.stevens.cs549.dht.activity contains business logic for the overlay network.
+2. edu.stevens.cs549.dht.main contains the main program, as well as a CLI and a class
+encapsulating Web client requests.
+3. edu.stevens.cs549.dht.resource contains Web resources for the REST API.
+4. edu.stevens.cs549.dht.state contains the state server implementation.
