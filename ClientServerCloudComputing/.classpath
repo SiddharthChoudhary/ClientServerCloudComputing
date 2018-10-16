@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="ftp/ftpclient/src/main/java"/>
+	<classpathentry kind="src" path="ftp/ftpclient/src/test/java"/>
+	<classpathentry kind="src" path="ftp/ftpinterface/src/main/java"/>
+	<classpathentry kind="src" path="ftp/ftpinterface/src/test/java"/>
+	<classpathentry kind="src" path="ftp/ftpserver/src/main/java"/>
+	<classpathentry kind="src" path="ftp/ftpserver/src/test/java"/>
+	<classpathentry kind="src" path="ftp/src/main/java"/>
+	<classpathentry kind="src" path="ftp/src/test/java"/>
+	<classpathentry kind="src" path="ftpclient/src/main/java"/>
+	<classpathentry kind="src" path="ftpclient/src/test/java"/>
+	<classpathentry kind="src" path="ftpinterface/src/main/java"/>
+	<classpathentry kind="src" path="ftpinterface/src/test/java"/>
+	<classpathentry kind="src" path="ftpserver/src/main/java"/>
+	<classpathentry kind="src" path="ftpserver/src/test/java"/>
+	<classpathentry kind="lib" path="ftp/ftpclient/target/ftpclient-0.0.3-SNAPSHOT-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="ftp/ftpclient/target/ftpclient-0.0.3-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="ftp/ftpinterface/target/ftpinterface-0.0.3-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="ftp/ftpserver/target/ftpserver-0.0.3-SNAPSHOT-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="ftp/ftpserver/target/ftpserver-0.0.3-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="ftpclient/target/ftpclient-0.0.3-SNAPSHOT-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="ftpclient/target/ftpclient-0.0.3-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="ftpinterface/target/ftpinterface-0.0.3-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="ftpserver/target/ftpserver-0.0.3-SNAPSHOT-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="ftpserver/target/ftpserver-0.0.3-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="ftp/ftpclient/target/classes"/>
+</classpath>
